@@ -1,0 +1,26 @@
+.footer{
+    height:8rem;
+    padding: 5rem 6rem;
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerLeft{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2.8rem;
+}
+.aboutHead{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+.about{
+    color: rgb(190, 190, 190);
+    width: 60%;
+    font-size: 0.7rem;
+}
+.logo.end{
+    color: rgb(210, 210, 210);
+}
