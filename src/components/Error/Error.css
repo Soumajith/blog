@@ -1,0 +1,19 @@
+.error-section{
+    padding: 5rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.error-head{
+    font-size: 4rem;
+    font-weight: 600;
+}
+.error-subHead{
+    font-size: 2rem;
+}
+.error-message{
+    color:rgb(124, 123, 123);
+    padding-bottom: 3rem;
+}

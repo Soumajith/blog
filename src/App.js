@@ -8,6 +8,24 @@ import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import Error from "./components/Error/Error";
 
+/**
+ * Backend
+ * -To do
+ *  - add image upload
+ *  - add tags
+ *  - add data into database
+ */
+
+/**
+ * FrontEnd
+ * - To do
+ *  - Profile
+ *  - Body
+ *  - Post Card
+ *  - Post Details
+ *  - Search
+ */
+
 const AppLayout = () => (
   <>
     <Navbar />

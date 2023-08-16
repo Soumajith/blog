@@ -1,7 +1,12 @@
 import React from "react";
 
 const Body = () => {
-  return <h1>Hello</h1>;
+  return (
+    <div>
+      <div className="hero-section"></div>
+      <div className="blogs"></div>
+    </div>
+  );
 };
 
 export default Body;
