@@ -18,6 +18,9 @@ const Navbar = () => {
       </div>
       <div className="rightNav">
         <div className="activity-list">
+          <Link className="activity" to={"/addPost"}>
+            Add Post +
+          </Link>
           <Link className="activity" to={"/profile"}>
             MyProfile
           </Link>
@@ -26,11 +29,16 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="register">
-          <button class="button-64">
-            <span class="text">Register</span>
+          <button className="button-64 button-register">
+            <Link to={"/register"} className="button-link">
+              <span className="text">Register</span>
+            </Link>
           </button>
-          <button class="button-64">
-            <span class="text">Log in</span>
+
+          <button className="button-64 button-register">
+            <Link to={"/login"} className="button-link">
+              <span className="text">Log in</span>
+            </Link>
           </button>
         </div>
       </div>

@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .nav{
-    padding: 0 10rem;
+    padding: 0 8rem;
     display: flex;
     justify-content: space-between;
     color: white;
@@ -79,6 +79,9 @@
   cursor: pointer;
 }
 
+.button-64.button-register{
+  padding: 12px 3px;
+}
 .button-64:active,
 .button-64:hover {
   outline: 0;
@@ -102,4 +105,8 @@
     font-size: 14px;
     min-width: 16px;
   }
+}
+.button-link{
+  text-decoration: none;
+  color: white;
 }
